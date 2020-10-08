@@ -1,3 +1,5 @@
+### Terraform ###
+
 # Local .terraform directories
 **/.terraform/*
 
@@ -14,6 +16,11 @@ override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
+
+#plan
+*tfplan*
+# Crash log files
+crash.log
 
 #project data
 **/misc.xml
