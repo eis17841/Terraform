@@ -1,0 +1,24 @@
+# Local .terraform directories
+**/.terraform/**
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+**/terraform.tfstate
+
+
+#secure sensible data
+*.tfvars
+#override data
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+#project data
+**/misc.xml
+**/modules.xml
+**/Terraform.iml
+**/terraform.xml
+**/workspace.xml
+**/vcs.xml
